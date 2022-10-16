@@ -1,0 +1,9 @@
+name: Hello World
+on: 
+  push:
+    branches: [main]
+jobs:
+  say-hello:
+    run-on: ubuntu-lastest
+    steps:
+      run: echo Xin chao Cam Minh
