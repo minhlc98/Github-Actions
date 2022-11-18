@@ -1,9 +1,9 @@
 name: Jest Test
 on: 
   push:
-    path: 
-      '!.gitignore'
-      '!README.md'
+    # path: 
+    #   '!.gitignore'
+    #   '!README.md'
     branches: [main]
   workflow_dispatch:
 jobs:
