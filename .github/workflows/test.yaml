@@ -1,0 +1,15 @@
+name: 'Jest Test'
+on: 
+  push:
+    paths: 
+      '!.gitignore'
+      '!README.md'
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  Test-Coverage
+    runs-on: ubuntu-latest
+    steps: 
+      - uses: actions/checkout@v3
+      - run: npm i
+      - run: npm test

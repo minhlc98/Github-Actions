@@ -1,0 +1,22 @@
+{
+  "name": "github-workflow-actions",
+  "description": "",
+  "version": "1.0.0",
+  "main": "calculate.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhlc98/Github-WorkFlow-Actions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minhlc98/Github-WorkFlow-Actions/issues"
+  },
+  "homepage": "https://github.com/minhlc98/Github-WorkFlow-Actions#readme"
+}
