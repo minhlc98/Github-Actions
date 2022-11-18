@@ -1,7 +1,7 @@
-name: 'Jest Test'
+name: Jest Test
 on: 
   push:
-    paths: 
+    path: 
       '!.gitignore'
       '!README.md'
     branches: [main]
