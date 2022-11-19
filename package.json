@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "main": "calculate.js",
   "scripts": {
+    "start": "node server.js",
     "test": "jest --coverage"
   },
   "devDependencies": {
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/minhlc98/Github-WorkFlow-Actions/issues"
   },
-  "homepage": "https://github.com/minhlc98/Github-WorkFlow-Actions#readme"
+  "homepage": "https://github.com/minhlc98/Github-WorkFlow-Actions#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
