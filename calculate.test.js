@@ -9,5 +9,5 @@ test('adds 10 + 12 to equal 22', () => {
 });
 
 test('add 1 + 1 to equal 2', () => {
-  expect(sum(1, 1)).toBe(3);
+  expect(sum(1, 1)).toBe(2);
 });
