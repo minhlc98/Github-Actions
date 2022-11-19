@@ -24,7 +24,7 @@ jobs:
       - run: npm ci
       - run: npm test
   build:
-    need: test
+    needs: test
     runs-on: ubuntu-latest
     steps: 
       - run: echo "Test success"
